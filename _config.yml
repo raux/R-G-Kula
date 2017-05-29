@@ -1,23 +1,19 @@
 theme: jekyll-theme-modernist
-gems: ['jekyll/scholar']
+gems: jekyll-scholar
+
 scholar:
-  style: apa
+  style: mla
   locale: en
 
   sort_by: none
   order: ascending
 
-  group_by: none
-  group_order: ascending
-
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: ""
+  bibliography_template: "{{reference}}"
 
   replace_strings: true
   join_strings:    true
-
-  use_raw_bibtex_entry: false
 
   details_dir:    bibliography
   details_layout: bibtex.html
