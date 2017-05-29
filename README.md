@@ -7,3 +7,16 @@ Research Assistant Professor (特任助教)
 * Mentor/Teacher
 * Researcher/Scientist
 * Software Engineer
+
+
+## Journal Articles
+
+{% bibliography -q @article %}
+
+## Conferences and Workshops
+
+{% bibliography -q @inproceedings %}
+
+## Manuscripts
+
+{% bibliography -q @phdthesis %}
